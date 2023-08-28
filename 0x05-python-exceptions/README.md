@@ -1,0 +1,2 @@
+# 0x05. Python - Exceptions
+The goal of this project is to empower participants with a comprehensive understanding of Python programming, focusing on the concept of exceptions. By delving into the nuances of errors, exceptions, and their handling, the project aims to equip learners with the skills required to write robust and error-resistant Python code.
