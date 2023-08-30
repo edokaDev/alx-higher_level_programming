@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Empty Square Script.
 
 This script defines a Square.
