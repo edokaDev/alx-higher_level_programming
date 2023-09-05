@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Rectangle Module.
+"""4-rectangle Module.
 
 This module is based on the `3-rectangle` module. \
     As an improvement, it implements repl() method \
