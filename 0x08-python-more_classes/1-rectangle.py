@@ -5,7 +5,7 @@ This script defines a Rectangle.
 """
 
 
-class Rectangle():
+class Rectangle:
     """Rectangle Class.
 
     This class defines a Rectangle.
