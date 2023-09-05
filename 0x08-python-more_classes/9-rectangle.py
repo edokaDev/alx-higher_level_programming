@@ -176,4 +176,4 @@ class Rectangle:
         Return:
             It returns a square.
         """
-        return Rectangle(size, size)
+        return cls(size, size)
