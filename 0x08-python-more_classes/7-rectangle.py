@@ -119,8 +119,8 @@ class Rectangle:
         """
         if self.perimeter() > 0:
             for i in range(self.height - 1):
-                print(self.print_symbol * self.width)
-            print(self.print_symbol * self.width, end="")
+                print(self.width * str(self.print_symbol))
+            print(self.width * str(self.print_symbol), end="")
         return ""
 
     def __repr__(self):
