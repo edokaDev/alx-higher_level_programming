@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""6-rectangle Module.
+"""7-rectangle Module.
 
-This module is based on the `5-rectangle` module. \
+This module is based on the `6-rectangle` module. \
     As an improvement, it makes the sting representation symbol to be dynamic.
 """
 
