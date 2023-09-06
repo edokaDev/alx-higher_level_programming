@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Rectangle Module.
+"""5-rectangle Module.
 
 This module is based on the `4-rectangle` module. \
     As an improvement, it implements __del__() method \
