@@ -6,7 +6,7 @@ from models.base import Base
 
 class TestBaseClass(unittest.TestCase):
     """Test for the BaseClass."""
-    
+
     def test_id_increment(self):
         """ID Increment Test."""
         inst1 = Base()
