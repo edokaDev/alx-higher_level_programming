@@ -15,7 +15,8 @@ class Base:
     def __init__(self, id=None):
         """Init function.
 
-        This is the constructor function, it instanciates the necessary variables.
+        This is the constructor function,
+        it instanciates the necessary variables.
         """
         if id is not None:
             self.id = id
