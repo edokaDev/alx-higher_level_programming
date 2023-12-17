@@ -4,7 +4,8 @@
 This program select the prints out the rows in the state table.
 """
 
-import MySQLdb, sys
+import MySQLdb
+import sys
 
 if __name__ == '__main__':
     db = MySQLdb.connect(
