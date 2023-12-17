@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""Select States.
+
+This program select the prints out the rows in the state table.
+"""
 
 import MySQLdb, sys
 
