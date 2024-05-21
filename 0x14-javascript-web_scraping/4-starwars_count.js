@@ -10,7 +10,7 @@ const url = 'https://swapi-api.alx-tools.com/api/films/';
 request.get(url, (error, response, body) => {
   if (error) {
     console.log(error);
-  } else {
+  } else if (response.statusCode === 200) {
     const content = JSON.parse(body);
     let count = 0;
 
@@ -19,11 +19,13 @@ request.get(url, (error, response, body) => {
       /* Iterating over each character */
       element.characters.forEach(character => {
         /* checking the id "https://swapi-api.alx-tools.com/api/people/1/" */
-        if (character.split('/')[5] === characterId) {
-          count += 1; /* incrementing count */
+        if (character.includes(characterId)) {
+          count++; /* incrementing count */
         }
       });
     });
     console.log(count);
+  } else {
+    console.log('An error occured!');
   }
 });
